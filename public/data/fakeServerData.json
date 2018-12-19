@@ -1,0 +1,51 @@
+{
+  "mails": [
+    {
+      "id":0,
+      "from" : "Secratary",
+      "cheminImage":"/../images/avatar-4.jpg",
+      "title" : "Send file to your boss",
+      "content" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia explicabo accusamus tempora suscipit blanditiis, itaque iure voluptate laudantium. Soluta, magni sit animi laboriosam reiciendis ut. Magni, corporis error veniam molestias.",
+      "date" : "4:00",
+      "flag": true,
+      "read" : true,
+      "reply":[
+        {
+          "id" :0,
+          "author" : "Vous",
+          "message" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "isUser" : true
+        },
+        {
+          "id" :1,
+          "author" : "Secratary",
+          "message" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "isUser" : false
+        }
+      ]
+    },
+    {
+      "id":1,
+      "from" : "Bob",
+      "cheminImage":"/../images/avatar-2.jpg",
+      "title" : "hello buddy",
+      "content" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia explicabo accusamus tempora suscipit blanditiis, itaque iure voluptate laudantium. Soluta, magni sit animi laboriosam reiciendis ut. Magni, corporis error veniam molestias.",
+      "date" : "2:00",
+      "flag": false,
+      "read" : false,
+      "reply":[]
+    },
+    {
+      "id":2,
+      "from" : "Steph",
+      "cheminImage":"/../images/avatar-1.jpg",
+      "title" : "Don't forget my computer",
+      "content" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia explicabo accusamus tempora suscipit blanditiis, itaque iure voluptate laudantium. Soluta, magni sit animi laboriosam reiciendis ut. Magni, corporis error veniam molestias.",
+      "date" : "1:00",
+      "flag": false,
+      "read" : false,
+      "reply":[]
+    }
+  ]
+}
+
