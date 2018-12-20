@@ -3,7 +3,7 @@
     {
       "id":0,
       "from" : "Secratary",
-      "cheminImage":"/../images/avatar-4.jpg",
+      "cheminImage":"./../images/avatar-4.jpg",
       "title" : "Send file to your boss",
       "content" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia explicabo accusamus tempora suscipit blanditiis, itaque iure voluptate laudantium. Soluta, magni sit animi laboriosam reiciendis ut. Magni, corporis error veniam molestias.",
       "date" : "4:00",
@@ -27,7 +27,7 @@
     {
       "id":1,
       "from" : "Bob",
-      "cheminImage":"/../images/avatar-2.jpg",
+      "cheminImage":"./../images/avatar-2.jpg",
       "title" : "hello buddy",
       "content" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia explicabo accusamus tempora suscipit blanditiis, itaque iure voluptate laudantium. Soluta, magni sit animi laboriosam reiciendis ut. Magni, corporis error veniam molestias.",
       "date" : "2:00",
@@ -38,7 +38,7 @@
     {
       "id":2,
       "from" : "Steph",
-      "cheminImage":"/../images/avatar-1.jpg",
+      "cheminImage":"./../images/avatar-1.jpg",
       "title" : "Don't forget my computer",
       "content" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia explicabo accusamus tempora suscipit blanditiis, itaque iure voluptate laudantium. Soluta, magni sit animi laboriosam reiciendis ut. Magni, corporis error veniam molestias.",
       "date" : "1:00",

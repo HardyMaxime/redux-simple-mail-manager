@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from "prop-types";
 import {Link} from 'react-router-dom'
-import { Item, Button, Icon, Divider } from "semantic-ui-react";
+import { Item, Button, Icon, Divider, Image } from "semantic-ui-react";
  
 const mailCard = props => (
   <Item.Group>
     <Item>
-      <Item.Image size="small" src={props.mail.cheminImage} />
+      <Image size="small" src={props.mail.cheminImage} />
       <Item.Content>
         <Item.Header style={{ width: "100%" }}>
           <Link to={`/mail/${props.mail.id}`}>

@@ -17,10 +17,7 @@ class App extends Component {
           <Route path="/mail/:id" render={props => {
               const mailId = parseInt(props.match.params.id, 10);
               const mail = this.props.mails.find(el => el.id === mailId);
-              return mail ? <PageMail mail={mail} filterFlag={this.props.flagHandler} deleteMail={this.props.deleteMail} /> : <h1
-                >
-                  404 : Page not found
-                </h1>;
+              return mail ? <PageMail mail={mail} filterFlag={this.props.flagHandler} deleteMail={this.props.deleteMail} /> : <Redirect to="/" />
             }} />
           <Route path="/" exact component={Layout} />
           <Redirect to="/" />
