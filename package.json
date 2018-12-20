@@ -2,7 +2,7 @@
   "name": "redux-gestionnaire-mail",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://HardyMaxime.github.io/react-gh-pages",
+  "homepage": "http://HardyMaxime.github.io/redux-simple-mail-manager",
   "dependencies": {
     "axios": "^0.18.0",
     "prop-types": "^15.6.1",
