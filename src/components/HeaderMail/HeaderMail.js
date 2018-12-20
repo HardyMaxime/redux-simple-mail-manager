@@ -10,7 +10,7 @@ const headerStyle = {
 
 const HeaderMail = () => (
     <Container textAlign="center" style={headerStyle}>
-        <h1 style={{color:'#fff'}} >Mail</h1>
+        <h1 style={{color:'#fff', fontSize:'50px', paddingTop:'50px'}} >Simple React&Redux Mail</h1>
     </Container>)
 
 export default HeaderMail;
