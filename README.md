@@ -1,3 +1,5 @@
+Demo : https://hardymaxime.github.io/redux-simple-mail-manager/
+
 ## Available Scripts
 
 In the project directory, you can run:
